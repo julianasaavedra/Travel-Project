@@ -108,6 +108,10 @@ main p {
     max-width: 100%;
     display: block;
 }
+.embed{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
 section.secondary{
     background-color: #f8f8f8;
 }
@@ -120,6 +124,9 @@ section.secondary{
 }
 .card-body{
     padding: 30px;
+}
+.card-header.grid{
+    grid-gap: 0;
 }
 .card-footer{
     padding: 0 30px 30px;
