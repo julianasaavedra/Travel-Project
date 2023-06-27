@@ -3,13 +3,8 @@ body{
     background-color: #272044;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-}
-section{
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 100px;
 }
 header{
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url("images/lisbon.png");
@@ -19,21 +14,18 @@ header{
     text-align: center;
     padding: 260px 0;
 }
-
 header h1{
     font-weight: 700;
     font-size: 96px;
     line-height: 1;
     margin: 30px 0;
 }
-
 header h2{
     font-weight: 400;
     font-size: 40px;
     line-height: 1.5;
     margin: 0;
 }
-
 header h3{
     font-weight: 900;
     font-size: 24px;
@@ -42,7 +34,6 @@ header h3{
     text-transform: uppercase;
     margin: 0;
 }
-
 header a{
     font-weight: 700;
     font-size: 14px;
@@ -90,14 +81,14 @@ main p {
     color: #272044;
     opacity: 0.7;
 }
-.main h4{
+main h4{
     font-weight: 700;
     font-size: 24px;
     line-height: 1;
     color: #272044;
     margin: 0;
 }
-.main h5{
+main h5{
     font-weight: 700;
     font-size: 13px;
     line-height: 1;
@@ -111,6 +102,14 @@ main p {
 .embed{
     width: 100%;
     aspect-ratio: 1/1;
+}
+.instagram-embeds{
+    margin: 20px 0;
+}
+section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px;
 }
 section.secondary{
     background-color: #f8f8f8;
@@ -131,6 +130,7 @@ section.secondary{
 .card-footer{
     padding: 0 30px 30px;
 }
+
 footer p{
     font-weight: 400;
     font-size: 16px;
@@ -164,17 +164,17 @@ footer a{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .btn {
-        display: block;
-        color: white;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 21px;
-        text-align: center;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        padding: 16px;
-        background-color: #462cb3;
-        text-decoration: none;
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px;
+    background-color: #462cb3;
+    text-decoration: none;
 }
 @media (max-width: 960px) {
     header{
